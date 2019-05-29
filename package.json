@@ -1,0 +1,25 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkaruStudio/maison-de-famille.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkaruStudio/maison-de-famille/issues"
+  },
+  "homepage": "https://github.com/AkaruStudio/maison-de-famille#readme",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0",
+    "nano-markdown": "^1.2.0",
+    "watch": "^1.0.2"
+  }
+}
