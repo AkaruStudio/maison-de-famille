@@ -3,8 +3,8 @@ const path = require('path')
 const nanoMd = require('nano-markdown')
 const watch = require('watch')
 
-const PATH_TO_IGNORE = ['_sidebar', '.vscode', '.history', 'node_modules', '.git']
-const TOP_LEVEL = __dirname
+const PATH_TO_IGNORE = ['_sidebar']
+const DOC_DIRECTORY = path.join(__dirname, 'doc')
 
 /**
  *
@@ -31,7 +31,7 @@ function File (filePath, level = 0) {
   this.setRoute = () => {
     if (this.isDirectory() && !this.hasIndexChildren()) return
 
-    this.route = path.relative(TOP_LEVEL, this.filePath)
+    this.route = path.relative(DOC_DIRECTORY, this.filePath)
     this.route = this.route.replace(/README\.md/i, '')
     this.route = this.route.replace(/\.md/i, '/')
 
@@ -158,11 +158,11 @@ const createText = (a, txt = '') => {
 }
 
 const execute = () => {
-  let directoryStructure = parseDirectory(path.join(__dirname))
+  let directoryStructure = parseDirectory(DOC_DIRECTORY)
 
   let text = createText(directoryStructure)
 
-  fs.writeFileSync(path.join(__dirname, '_sidebar.md'), text)
+  fs.writeFileSync(path.join(DOC_DIRECTORY, '_sidebar.md'), text)
 }
 
 watch.watchTree(__dirname, {
