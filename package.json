@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "doc-sidebar": "node generate-sidebar.js",
-    "doc-serve": "docsify serve ./doc",
+    "doc-serve": "docsify serve ./docs",
     "doc": "run-p doc-sidebar doc-serve"
   },
   "repository": {

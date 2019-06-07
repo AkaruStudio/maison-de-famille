@@ -4,7 +4,7 @@ const nanoMd = require('nano-markdown')
 const watch = require('watch')
 
 const PATH_TO_IGNORE = ['_sidebar']
-const DOC_DIRECTORY = path.join(__dirname, 'doc')
+const DOC_DIRECTORY = path.join(__dirname, 'docs')
 
 /**
  *
