@@ -1,6 +1,11 @@
 - [Routes](1-routes/)
   - [Introduction](1-routes/0-Introduction)
-  - [/possessions](1-routes/possessions)
+  - [POST /api/pages/buy/slug](1-routes/buy-detail)
+  - [GET /api/pages/buy](1-routes/buy)
+  - [GET /api/cities](1-routes/cities)
+  - [GET /api/pages/home](1-routes/home)
+  - [GET /api/pages/cities](1-routes/page-cities)
+  - [GET /api/possessions](1-routes/possessions)
 - [Découpage](2-cutting/)
   - Composants
     - [Header](2-cutting/composants/header/)

@@ -1,25 +1,6 @@
-# Accueil
+# GET /api/pages/home
 
----
-
-> /
-
-## Composants
-
----
-
-- [Header](/composants/header/)
-- [Lien interne](/composants/lien-interne/)
-- [Liste de liens vignette](/composants/liste-liens-vignette/)
-- [Lien conseiller](/composants/lien-conseiller/)
-- [Section lien](/composants/lien-section/)
-
-## API
-
----
-
-> /api/page/home
-
+> Page d'accueil
 
 ```js
 {
@@ -33,7 +14,7 @@
     title: 'Des biens immobiliers de prestige',
     subtitle: 'Paris ouest & sud'
   },
-  internalLinks: [{
+  internallinks: [{
     image: {
       sources: [__image__, __image_en_webp__],
       alt: 'une maison'
@@ -63,7 +44,6 @@
       text: 'Voir nos conseillers'
     },
     image: {
-      // Voir composant Image 
       sources: [__image__, __image_en_webp__],
       alt: 'nos conseillers'
     }
