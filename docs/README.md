@@ -69,7 +69,7 @@ Pour le responsive, il faut décider (suivant aussi ce qui est possible) si:
 #### Question
 
 Comment on fontionne pour les sliders d'image au milieu des contenus ?
-Le mieux serait d'avoir des blocs répétables => en back, on a un champ contenu qui peut contenir des blocs slider ou des blocs texte, autant qu'on veut
+Le mieux serait d'avoir des blocs répétables => en back, on a un champ contenu qui peut contenir des blocs slider ou des blocs texte, autant qu'on veut.
 
 #### Réponse
 
