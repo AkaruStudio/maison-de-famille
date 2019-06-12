@@ -16,7 +16,7 @@ Savoir combien il y aura de biens récupérés depuis Immofacile
 
 #### Réponse
 
-...
+Environ 60 donc 1er cas
 
 ## Utilisation des icônes
 
@@ -62,8 +62,15 @@ Pour le responsive, il faut décider (suivant aussi ce qui est possible) si:
 
 ...
 
-## Liens
+## WYSIWYG
+
+---
 
 #### Question
 
-Ce serait idéla
+Comment on fontionne pour les sliders d'image au milieu des contenus ?
+Le mieux serait d'avoir des blocs répétables => en back, on a un champ contenu qui peut contenir des blocs slider ou des blocs texte, autant qu'on veut
+
+#### Réponse
+
+...
