@@ -305,7 +305,7 @@ module.exports = {
           'Une mise en valeur de votre maison',
           'Une communication Multi-Supports',
           'Un Suivi et un Accompagnement complets'
-        ]
+        ],
       }
     }
   ]
