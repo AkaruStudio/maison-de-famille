@@ -3,58 +3,166 @@
 > Page d'accueil
 
 ```js
-{
+module.exports = {
   header: {
-    images: [
-      {
-        sources: [__image__, __image_en_webp__],
-        alt: 'une maison'
-      }
-    ],
-    title: 'Des biens immobiliers de prestige',
+    images: [{
+      alt: 'mon alt',
+      base: {
+        src: 'monimagedefault.jpg'
+      },
+      jpg: [{
+        source: 'monimage_350.jpg',
+        width: 350
+      }, {
+        source: 'monimage_700.jpg',
+        width: 700
+      }, {
+        source: 'monimage_1400.jpg',
+        width: 1400
+      }],
+      webp: [{
+        source: 'monimage_350.webp',
+        width: 350
+      }, {
+        source: 'monimage_700.webp',
+        width: 700
+      }, {
+        source: 'monimage_1400.webp',
+        width: 1400
+      }]
+    }],
+    title: 'Des biens<br> immobiliers de prestige',
     subtitle: 'Paris ouest & sud'
   },
-  internallinks: [{
+  internalLinks: [{
     image: {
-      sources: [__image__, __image_en_webp__],
-      alt: 'une maison'
+      alt: 'mon alt',
+      base: {
+        src: 'monimagedefault.jpg'
+      },
+      jpg: [{
+        source: 'monimage_350.jpg',
+        width: 350
+      }, {
+        source: 'monimage_700.jpg',
+        width: 700
+      }, {
+        source: 'monimage_1400.jpg',
+        width: 1400
+      }],
+      webp: [{
+        source: 'monimage_350.webp',
+        width: 350
+      }, {
+        source: 'monimage_700.webp',
+        width: 700
+      }, {
+        source: 'monimage_1400.webp',
+        width: 1400
+      }]
     },
     title: 'Je souhaite acheter',
     link: {
-      to: '/achats',
-      title: 'Voir les achats'
+      to: 'acheter',
+      title: ''
     }
   }, {
     image: {
-      sources: [__image__, __image_en_webp__],
-      alt: 'une maison'
+      alt: 'mon alt',
+      base: {
+        src: 'monimagedefault.jpg'
+      },
+      jpg: [{
+        source: 'monimage_350.jpg',
+        width: 350
+      }, {
+        source: 'monimage_700.jpg',
+        width: 700
+      }, {
+        source: 'monimage_1400.jpg',
+        width: 1400
+      }],
+      webp: [{
+        source: 'monimage_350.webp',
+        width: 350
+      }, {
+        source: 'monimage_700.webp',
+        width: 700
+      }, {
+        source: 'monimage_1400.webp',
+        width: 1400
+      }]
     },
     title: 'Je souhaite vendre',
     link: {
-      to: '/services',
-      title: 'Voir les ventes'
+      to: 'vendre',
+      title: ''
     }
   }],
-  advisorslink: {
+  advisorLink: {
     title: 'Nos conseillers ont une réelle expertise de leur quartier',
-    text: 'Maisons de Famille Immobilier, ce n’est pas deux hommes mais toute une équipe. Chaque conseiller a une réelle expertise de son quartier. Il saura répondre à vos attentes en vous accompagnant tout le long de votre projet. N’hésitez pas à nous contacter pour organiser une première rencontre et nous faire part de votre projet. ',
-    link: {
-      to: '/conseillers',
-      title: 'Voir nos conseillers',
-      text: 'Voir nos conseillers'
-    },
+    text: 'Maisons de Famille Immobilier, ce n’est pas deux hommes mais toute une équipe. Chaque conseiller a une réelle expertise de son quartier. Il saura répondre à vos attentes en vous accompagnant tout le long de votre projet. N’hésitez pas à nous contacter pour organiser une première rencontre et nous faire part de votre projet.',
     image: {
-      sources: [__image__, __image_en_webp__],
-      alt: 'nos conseillers'
+      alt: 'mon alt',
+      base: {
+        src: 'monimagedefault.jpg'
+      },
+      jpg: [{
+        source: 'monimage_350.jpg',
+        width: 350
+      }, {
+        source: 'monimage_700.jpg',
+        width: 700
+      }, {
+        source: 'monimage_1400.jpg',
+        width: 1400
+      }],
+      webp: [{
+        source: 'monimage_350.webp',
+        width: 350
+      }, {
+        source: 'monimage_700.webp',
+        width: 700
+      }, {
+        source: 'monimage_1400.webp',
+        width: 1400
+      }]
+    },
+    link: {
+      to: 'conseillers',
+      title: 'test',
+      text: 'Voir nos conseillers'
     }
   },
   cities: {
     title: 'Nos villes & quartiers',
-    items: [{
+    cities: [{
       title: 'Clamart',
       image: {
-        sources: [__image__, __image_en_webp__],
-        alt: 'le quartier'
+        alt: 'mon alt',
+        base: {
+          src: 'monimagedefault.jpg'
+        },
+        jpg: [{
+          source: 'monimage_350.jpg',
+          width: 350
+        }, {
+          source: 'monimage_700.jpg',
+          width: 700
+        }, {
+          source: 'monimage_1400.jpg',
+          width: 1400
+        }],
+        webp: [{
+          source: 'monimage_350.webp',
+          width: 350
+        }, {
+          source: 'monimage_700.webp',
+          width: 700
+        }, {
+          source: 'monimage_1400.webp',
+          width: 1400
+        }]
       },
       link: {
         to: '__slug_de_la_ville__',
@@ -70,32 +178,105 @@
         text: 'Mal desservie',
         icon: 'subway'
       }]
-    }],
-    ...
+    }]
   },
-  quotes: {
+  testimonials: {
     text: 'Les témoignages de nos clients sont très important pour nous. C’est pour cette raison que lors de nos ventes, nous aimons récolter leurs avis, en voici quelques-uns.',
-    quotes: [{
+    testimonials: [{
       type: 'quote',
-      images: {
-        sources: [__image__, __image_en_webp__],
-        alt: 'l\'auteur de la citation'
+      image: {
+        alt: 'mon alt',
+        base: {
+          src: 'monimagedefault.jpg'
+        },
+        jpg: [{
+          source: 'monimage_350.jpg',
+          width: 350
+        }, {
+          source: 'monimage_700.jpg',
+          width: 700
+        }, {
+          source: 'monimage_1400.jpg',
+          width: 1400
+        }],
+        webp: [{
+          source: 'monimage_350.webp',
+          width: 350
+        }, {
+          source: 'monimage_700.webp',
+          width: 700
+        }, {
+          source: 'monimage_1400.webp',
+          width: 1400
+        }]
       },
-      layout: 'left',
+      video: {
+        sources: ['/uploads/home/testimonial.mp4'],
+        alt: 'la vidéo de daniel'
+      },
       author: 'Daniel t.',
       quote: 'A priori non porté sur les agences immobilières, j\'ai été conquis par le professionnalisme et la disponibilité de l\'agence et plus particulièrement d\'un Conseiller en particulier, M. Danvy. Sans aucun regret.'
     }, {
       type: 'quote',
-      images: {
-        sources: [__image__, __image_en_webp__],
-        alt: 'l\'auteur de la citation'
+      image: {
+        alt: 'mon alt',
+        base: {
+          src: 'monimagedefault.jpg'
+        },
+        jpg: [{
+          source: 'monimage_350.jpg',
+          width: 350
+        }, {
+          source: 'monimage_700.jpg',
+          width: 700
+        }, {
+          source: 'monimage_1400.jpg',
+          width: 1400
+        }],
+        webp: [{
+          source: 'monimage_350.webp',
+          width: 350
+        }, {
+          source: 'monimage_700.webp',
+          width: 700
+        }, {
+          source: 'monimage_1400.webp',
+          width: 1400
+        }]
       },
-      layout: 'left',
+      author: 'Daniel B.',
+      quote: 'Son service est très efficace , le suivie de dossier est constant , son expertise local est juste et cohérent.'
+    }, {
+      type: 'quote',
+      image: {
+        alt: 'mon alt',
+        base: {
+          src: 'monimagedefault.jpg'
+        },
+        jpg: [{
+          source: 'monimage_350.jpg',
+          width: 350
+        }, {
+          source: 'monimage_700.jpg',
+          width: 700
+        }, {
+          source: 'monimage_1400.jpg',
+          width: 1400
+        }],
+        webp: [{
+          source: 'monimage_350.webp',
+          width: 350
+        }, {
+          source: 'monimage_700.webp',
+          width: 700
+        }, {
+          source: 'monimage_1400.webp',
+          width: 1400
+        }]
+      },
       author: 'Daniel t.',
       quote: 'A priori non porté sur les agences immobilières, j\'ai été conquis par le professionnalisme et la disponibilité de l\'agence et plus particulièrement d\'un Conseiller en particulier, M. Danvy. Sans aucun regret.'
-    }, 
-    ...
-    ]
+    }]
   },
   sublink: {
     title: 'Nous apportons 5 services faisant la différence ',
@@ -114,4 +295,5 @@
     ]
   }
 }
+
 ```
