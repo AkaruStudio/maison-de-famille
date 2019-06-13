@@ -13,6 +13,7 @@ Chaque réponse de l'API doit être de la forme
 
 Pour les images, on a ce format là
 
+
 ```js
 {
   alt: 'mon alt',
