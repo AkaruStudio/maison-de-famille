@@ -2,6 +2,7 @@
 
 > Page d'accueil
 
+
 ```js
 module.exports = {
   header: {
