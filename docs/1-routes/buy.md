@@ -8,7 +8,7 @@
     images: [{
       alt: 'mon alt',
       base: {
-        src: 'monimagedefault.jpg'
+        source: 'monimagedefault.jpg'
       },
       jpg: [{
         source: 'monimage_350.jpg',
@@ -50,7 +50,7 @@
       image: {
         alt: 'mon alt',
         base: {
-          src: 'monimagedefault.jpg'
+          source: 'monimagedefault.jpg'
         },
         jpg: [{
           source: 'monimage_350.jpg',
@@ -88,7 +88,7 @@
         image: {
           alt: 'mon alt',
           base: {
-            src: 'monimagedefault.jpg'
+            source: 'monimagedefault.jpg'
           },
           jpg: [{
             source: 'monimage_350.jpg',
