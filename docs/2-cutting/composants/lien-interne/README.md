@@ -10,7 +10,7 @@
 
 |nom|type|requis|default|description| 
 |---|---|---|---|---|
-image|[Image](/composants/image)|oui|null|Une image de fond
+image|[Image](/2-cutting/composants/image)|oui|null|Une image de fond
 title|Chaîne de caractères|oui|""|Le titre
 link|Objet avec `to` et `title`|non|null|Le lien à afficher
 
@@ -18,7 +18,7 @@ link|Objet avec `to` et `title`|non|null|Le lien à afficher
 
 ---
 
-- [Image](/composants/image)
+- [Image](/2-cutting/composants/image)
 
 ## API
 

@@ -11,14 +11,14 @@
 |nom|type|requis|default|description| 
 |---|---|---|---|---|
 text|Chaîne de caractères|oui|"quote"|Le type de témoignage. `quote` ou `press`
-quotes|Tableau de [Témoignages](/composants/temoignage/)|oui|[]|La liste de témoignages à afficher
+quotes|Tableau de [Témoignages](/2-cutting/composants/temoignage/)|oui|[]|La liste de témoignages à afficher
 
 
 ## Composants
 
 ---
 
-- [Témoignage](/composants/temoignage/)
+- [Témoignage](/2-cutting/composants/temoignage/)
 
 
 ## API

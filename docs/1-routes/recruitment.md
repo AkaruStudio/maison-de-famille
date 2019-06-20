@@ -1,4 +1,4 @@
-# POST /api/pages/recruitment
+# GET /api/pages/recruitment
 
 > Page recrutement
 

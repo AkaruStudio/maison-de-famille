@@ -1,4 +1,4 @@
-# POST /api/pages/contact
+# GET /api/pages/contact
 
 > Page contact
 

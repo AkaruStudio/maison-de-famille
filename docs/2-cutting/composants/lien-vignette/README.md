@@ -11,7 +11,7 @@
 
 |nom|type|requis|default|description| 
 |---|---|---|---|---|
-images|Tableau d'[Image](/composants/image)|oui|[]|Une/Les image(s) de fond
+images|Tableau d'[Image](/2-cutting/composants/image)|oui|[]|Une/Les image(s) de fond
 type|Chaîne de caractères|oui|[]|Le type de vignette. `possession`, `news`, `city`, ou `advisor`
 link|Objet avec `to` et `title`|non|null|Le lien à afficher
 name|Chaîne de caractères|non|""|Le nom du conseiller si le type est `advisor`
@@ -27,7 +27,7 @@ category|Chaîne de caractères|non|""|La catégorie de l'actualité si le type 
 
 ---
 
-- [Image](/composants/image)
+- [Image](/2-cutting/composants/image)
 
 
 ## Comportement

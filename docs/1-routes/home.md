@@ -106,6 +106,15 @@ module.exports = {
         }]
       }
     }, {
+      type: 'thumbnail-list',
+      datas: {
+        title: 'Nos biens de prestige récents',
+        link: {
+          to: 'acheter',
+          text: 'Voir tous nos biens'
+        }
+      }
+    }, {
       type: 'advisor-link',
       datas: {
         title: 'Nos conseillers ont une réelle expertise de leur quartier',

@@ -13,13 +13,13 @@
 title|Chaîne de caractères|oui|""|Le titre
 text|Chaîne de caractères|oui|""|Le texte
 link|Objet avec `to` et `title`|non|null|Le lien à afficher
-image|[Image](/composants/image)|oui|null|L'image à afficher
+image|[Image](/2-cutting/composants/image)|oui|null|L'image à afficher
 
 ## Composants
 
 ---
 
-- [Image](/composants/image)
+- [Image](/2-cutting/composants/image)
 
 ## API
 

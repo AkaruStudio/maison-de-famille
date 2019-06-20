@@ -9,20 +9,20 @@
 
 ---
 
-|nom|type|requis|default|description| 
-|---|---|---|---|---|
-images  |  Tableau d'[Image](/composants/image)  |  non  |  []  |  Une ou plusieurs images de fond
-video  |  Une [Video](/composants/video)  |  non |  []  |  Une video de fond
-title|Chaîne de caractères|oui|null|Le titre
-subtitle|Chaîne de caractères|non|null|Le sous titre
+| nom      | type                                 | requis | default | description                     |
+| -------- | ------------------------------------ | ------ | ------- | ------------------------------- |
+| images   | Tableau d'[Image](/2-cutting/composants/image) | non    | []      | Une ou plusieurs images de fond |
+| video    | Une [Video](/2-cutting/composants/video)       | non    | []      | Une video de fond               |
+| title    | Chaîne de caractères                 | oui    | null    | Le titre                        |
+| subtitle | Chaîne de caractères                 | non    | null    | Le sous titre                   |
 
 
 ## Composants
 
 ---
 
-- [Image](/composants/image)
-- [Video](/composants/video)
+- [Image](/2-cutting/composants/image)
+- [Video](/2-cutting/composants/video)
 
 
 ## Comportement

@@ -20,7 +20,7 @@ services|Tableau|non|[]|La liste de points importants
 
 ---
 
-- [Image](/composants/image)
+- [Image](/2-cutting/composants/image)
 
 
 ## API

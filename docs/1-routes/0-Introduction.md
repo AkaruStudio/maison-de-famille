@@ -43,4 +43,4 @@ Pour les images, on a ce format là
 }
 ```
 
-Dans chaque réponse de page, il y a une clef `blocks` qui est un tableau de tous les contenus de la page. Chaque block à un type qui me permet de décider en front ce que j'affiche.
+Dans chaque réponse de page, il y a une clef `blocks` qui est un tableau de tous les contenus de la page. Chaque block à un `type` qui me permet de décider en front ce que j'affiche.

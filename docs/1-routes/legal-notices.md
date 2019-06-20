@@ -1,4 +1,4 @@
-# POST /api/pages/legal-notices
+# GET /api/pages/legal-notices
 
 > Page Mentions légales
 

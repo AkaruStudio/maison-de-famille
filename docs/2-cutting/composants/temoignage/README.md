@@ -11,7 +11,7 @@
 |nom|type|requis|default|description| 
 |---|---|---|---|---|
 type|Chaîne de caractères|oui|"quote"|Le type de témoignage. `quote` ou `press`
-image|[Image](/composants/image)|oui|null|Une image de fond
+image|[Image](/2-cutting/composants/image)|oui|null|Une image de fond
 layout|Chaîne de caractères|oui|"right"|`right` ou `left` change le layout
 author|Chaîne de caractères|non|null|L'auteur de la citation
 quote|Chaîne de caractères|non|null|La citation
@@ -22,7 +22,7 @@ link|Objet avec les propriétés `type`, `to`, |non|null|L'article si le type es
 
 ---
 
-- [Image](/composants/image)
+- [Image](/2-cutting/composants/image)
 
 
 ## Comportement

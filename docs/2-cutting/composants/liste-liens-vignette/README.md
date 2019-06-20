@@ -10,11 +10,11 @@
 
 |nom|type|requis|default|description| 
 |---|---|---|---|---|
-|items|Tableau de [Lien vignette](/composants/thumbnail)|oui|[]|Les liens vignettes affichés
+|items|Tableau de [Lien vignette](/2-cutting/composants/thumbnail)|oui|[]|Les liens vignettes affichés
 title|Chaîne de caractères|oui|""|Le titre
 link|Objet avec `to`, `text` et `title`|non|null|Le lien à afficher
 canBeSorted|Booléen|non|false|Si on peut trier la liste
-map|Référence au composant [Carte](/composants/map)|non|null|Référence à la carte associée
+map|Référence au composant [Carte](/2-cutting/composants/map)|non|null|Référence à la carte associée
 
 
 ## Comportement
