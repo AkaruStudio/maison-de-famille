@@ -8,11 +8,13 @@
 
 ---
 
+- [Header](/2-cutting/composants/header/)
+- [Carte](/2-cutting/composants/carte/)
+- [Lien conseiller](/2-cutting/composants/lien-conseiller/)
+- [Liste de liens vignette](/2-cutting/composants/liste-liens-vignette/)
 
 ## API
 
 ---
 
-```js
-
-```
+> /api/pages/news/_slug_

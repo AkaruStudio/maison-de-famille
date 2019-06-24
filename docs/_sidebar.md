@@ -33,6 +33,7 @@
     - [Liste de villes](2-cutting/composants/liste-ville/)
     - [Section lien](2-cutting/composants/section-lien/)
     - [Témoignage](2-cutting/composants/temoignage/)
+    - [Texte](2-cutting/composants/texte/)
     - [Video](2-cutting/composants/video)
   - Layout
     - [Footer](2-cutting/layout/bas-de-page/)
@@ -41,7 +42,7 @@
     - [Accueil](2-cutting/pages/accueil)
     - [Acheter](2-cutting/pages/acheter)
     - [Toutes les actualités](2-cutting/pages/actualites)
-    - [Nos biens vendus](2-cutting/pages/biens-vendus)
+    - [Les biens vendus](2-cutting/pages/biens-vendus)
     - [Comparatif](2-cutting/pages/comparatif)
     - [Contact](2-cutting/pages/contact)
     - [Détail d'une actualité](2-cutting/pages/detail-actualite)
@@ -55,5 +56,5 @@
     - [Notre team](2-cutting/pages/team)
     - [Témoignages](2-cutting/pages/temoignages)
     - [Services](2-cutting/pages/vendre)
-    - [Villes](2-cutting/pages/villes)
+    - [Liste de villes](2-cutting/pages/villes)
 - [Accueil](/)

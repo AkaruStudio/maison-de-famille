@@ -4,15 +4,8 @@
 
 > /comparatif
 
-## Composants
-
----
-
-
 ## API
 
 ---
 
-```js
-
-```
+> Tout static
